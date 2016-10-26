@@ -10,20 +10,47 @@ public class Main {
     public static void main (String[] args){
 
         explode("example");
-        cat("cat");
-        noString("");
-        c("c");
+        explode("cat");
+        explode("");
+        explode("c");
 
-        notCandy("candy");
-        notX("x");
-        notBad("not bad");
+        notString("candy");
+        notString("x");
+        notString("not bad");
 
         missingChar1("kitten");
         missingChar0("kitten");
         missingChar4("kitten");
 
-        frontBack1("code");
-        frontBack2("a");
-        frontBack3("ab");
+        frontBack("code");
+        frontBack("a");
+        frontBack("ab");
+
+        front3("Java");
+        front3("Chocolate");
+        front3("abc");
+
+        backAround("cat");
+        backAround("Hello");
+        backAround("a");
+
+        front22("kitten");
+        front22("Ha");
+        front22("abc");
+
+        delDel("adelbc");
+        delDel("adelHello");
+        delDel("adedbc");
+
+        startOz("ozymandias");
+        startOz("bzoo");
+        startOz("oxx");
+        startOz("kitten");
+
+        endUp("Hello");
+        endUp("hi there");
+        endUp("hi");
+
+
         }
 }
